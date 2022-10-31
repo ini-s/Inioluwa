@@ -269,7 +269,7 @@ h2{
     text-align: center;
 }
 .projects .project-box .img-caption h5{
-    font-size:1.5rem;
+    font-size:1.3rem;
     font-weight: 600;
     margin-bottom:0;
     padding-bottom:1rem;
@@ -284,6 +284,9 @@ h2{
 .projects .project-box .img-caption .technologies i{
     padding:0 0.5rem;
     font-size: 1.5rem;
+}
+.projects .project-box:hover {
+    height:16rem;
 }
 .projects .project-box:hover .img-caption{
     display:flex;
@@ -385,7 +388,7 @@ footer .span{
     .projects .project-box{
         height:12rem;
         width:25rem;
-    }
+    } 
 }
 @media screen and (max-width: 1100px){
     .about .pic-box .pic{
@@ -422,6 +425,9 @@ footer .span{
     .projects .project-box{
         height:10rem;
         width:18rem;
+    }
+    .projects .project-box:hover {
+        height:16rem;
     }
 }
 @media screen and (max-width: 767px){
