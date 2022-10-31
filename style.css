@@ -428,9 +428,6 @@ footer .span{
     .about, .skills, .contact{
         padding:5rem 2rem;
     }
-    .about .text, .about h2{
-        text-align: center;
-    }
     .about .pic-box{
         padding: 2rem 0;
         text-align: center;
