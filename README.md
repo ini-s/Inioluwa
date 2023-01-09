@@ -5,3 +5,5 @@ I created a portfolio website to showcase my skills and projects.
 * HTML5
 * CSS3
 * JavaScript (ES6)
+* Node.js
+* Express.js
