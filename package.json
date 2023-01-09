@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "I created a portfolio website to showcase my skills and projects.",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon form.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ini-s/inioluwa.git"
+  },
+  "author": "ini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ini-s/inioluwa/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/ini-s/inioluwa#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
