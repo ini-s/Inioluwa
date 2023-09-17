@@ -241,7 +241,7 @@ h2 {
   margin-bottom: 0.5rem;
   display: flex;
   justify-content: start;
-  gap: 1rem;
+  gap: 1.8rem;
 }
 
 .about-links a {
@@ -284,7 +284,7 @@ h2 {
   font-size: 1.5rem;
   width: fit-content;
   color: #c779d0;
-  padding: 8px 30px;
+  padding: 8px 20px;
   border-radius: 5px;
   border: 2px solid #c779d0;
   font-weight: 500;
@@ -615,7 +615,7 @@ footer .span {
 
   .about-links {
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .cv-btn {
