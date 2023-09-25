@@ -51,10 +51,15 @@ h2 {
   color: #ffff;
 }
 
-.navbar .side-nav-btn {
+.side-nav-btn {
   display: none;
   font-size: 1.5rem;
 }
+
+.side-nav-btn .nav-link{
+  padding: 0;
+}
+
 
 .navbar {
   position: fixed;
@@ -62,7 +67,7 @@ h2 {
   display: flex;
   top: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 97;
   background-color: #301934;
 }
 
@@ -167,7 +172,7 @@ h2 {
 /* overlay  */
 .overlay {
   position: absolute;
-  z-index: 99;
+  z-index: 98;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
@@ -197,16 +202,20 @@ h2 {
   padding-top: 5rem;
 }
 
-.side-nav .toggle-button {
-  margin-top: 2rem;
-  position: fixed;
-  right: 5%;
+.side-nav-link{
+  padding: 0;
+};
+
+.toggle-button {
+  position: relative;
   z-index: 200;
 }
 
 .side-nav .toggle-button i {
   color: #ffff;
-  width: 2rem;
+  position: fixed;
+  right: 2rem;
+  top: 2rem
 }
 
 .side-nav ul li {
