@@ -21,6 +21,10 @@ h1 {
   font-weight: 500;
 }
 
+a i {
+  overflow: hidden;
+}
+
 h2 {
   text-align: center;
   font-size: 2rem;
